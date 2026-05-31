@@ -1,0 +1,21 @@
+{
+  "name": "naver-blog-place-analysis-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "analyze:naver": "node work/naver-blog-place-analysis.mjs",
+    "analyze:latest": "node work/naver-blog-latest-discovery.mjs",
+    "summarize:latest": "node work/summarize-latest-analysis.mjs",
+    "drilldown:area": "node work/area-place-drilldown.mjs",
+    "analyze:categories": "node work/category-seed-pipeline.mjs",
+    "verify:places": "node work/verify-place-candidates.mjs",
+    "build:today-hot": "node work/build-today-hot-places.mjs",
+    "normalize:today-hot": "node work/normalize-today-hot-places.mjs",
+    "save:snapshot": "node work/save-daily-hot-places-snapshot.mjs",
+    "prepare:supabase-load": "node work/prepare-supabase-load.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
