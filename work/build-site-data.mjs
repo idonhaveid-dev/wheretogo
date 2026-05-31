@@ -90,7 +90,8 @@ function normalizePlace(row) {
 }
 
 async function main() {
-  const rows = parseCsv(await readFile(INPUT, "utf8")).map(normalizePlace);
+  const rawRows = parseCsv(await readFile(INPUT, "utf8"));
+  const rows = rawRows.map(normalizePlace);
   const byRegion = new Map();
 
   for (const place of rows) {
@@ -115,7 +116,7 @@ async function main() {
     .sort((a, b) => b.hot_score - a.hot_score || b.place_count - a.place_count)
     .map((region, index) => ({ rank: index + 1, ...region }));
 
-  const generatedAt = rows[0]?.date || "";
+  const generatedAt = rawRows[0]?.date || "";
   const payload = {
     generated_at_label: generatedAt,
     total_places: rows.length,
