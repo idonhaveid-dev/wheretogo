@@ -1,0 +1,852 @@
+{
+  "generated_at_label": "",
+  "total_places": 25,
+  "regions": [
+    {
+      "rank": 1,
+      "region": "강릉",
+      "slug": "EAB095EBA689",
+      "hot_score": 103.6,
+      "place_count": 4,
+      "top_places": [
+        "중앙시장",
+        "사근진해변",
+        "사천해변",
+        "안목해변"
+      ],
+      "categories": [
+        "domestic_travel"
+      ],
+      "places": [
+        {
+          "rank": 1,
+          "category": "domestic_travel",
+          "region": "강릉",
+          "display_name": "중앙시장",
+          "official_place_name": "중앙시장",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "쇼핑,유통>시장",
+          "blog_post_count": 7,
+          "today_count": 7,
+          "previous_average": 0,
+          "lift": 14,
+          "match_score": 90,
+          "hot_score": 88.2,
+          "address": "강원특별자치도 강릉시 성남동 50",
+          "roadAddress": "강원특별자치도 강릉시 금성로 21",
+          "mapx": "1288983903",
+          "mapy": "377535620",
+          "naver_place_link": "http://www.gnmarket.or.kr/gnmarket/index.php",
+          "sample_links": [
+            "https://blog.naver.com/editorc/224301823035",
+            "https://blog.naver.com/dototo_/224301829408",
+            "https://blog.naver.com/parkmath68/224301764332",
+            "https://blog.naver.com/gmlwjd2829/224301720312",
+            "https://blog.naver.com/57136/224301829140"
+          ]
+        },
+        {
+          "rank": 8,
+          "category": "domestic_travel",
+          "region": "강릉",
+          "display_name": "사근진해변",
+          "official_place_name": "사근진해변",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "여행,명소>해수욕장,해변",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 90,
+          "hot_score": 7.2,
+          "address": "강원특별자치도 강릉시 안현동 2-7",
+          "roadAddress": "강원특별자치도 강릉시 해안로604번길 16",
+          "mapx": "1288990719",
+          "mapy": "378128825",
+          "naver_place_link": "http://sagunjin.co.kr",
+          "sample_links": [
+            "https://blog.naver.com/pricuae123/224301699781",
+            "https://blog.naver.com/gwdoraeyo/224297862469"
+          ]
+        },
+        {
+          "rank": 13,
+          "category": "domestic_travel",
+          "region": "강릉",
+          "display_name": "사천해변",
+          "official_place_name": "사천해변",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "여행,명소>해수욕장,해변",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 80,
+          "hot_score": 6.4,
+          "address": "강원특별자치도 강릉시 사천면",
+          "roadAddress": "",
+          "mapx": "1288784877",
+          "mapy": "378300323",
+          "naver_place_link": "http://sacheonbeach.co.kr",
+          "sample_links": [
+            "https://blog.naver.com/cozzingzzing/224301855216",
+            "https://blog.naver.com/rdkeiuy1384/224295237297"
+          ]
+        },
+        {
+          "rank": 21,
+          "category": "domestic_travel",
+          "region": "강릉",
+          "display_name": "안목해변",
+          "official_place_name": "안목해변",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "여행,명소>해수욕장,해변",
+          "blog_post_count": 2,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 90,
+          "hot_score": 1.8,
+          "address": "강원특별자치도 강릉시 견소동 287-112",
+          "roadAddress": "강원특별자치도 강릉시 창해로14번길 20-1",
+          "mapx": "1289477906",
+          "mapy": "377725747",
+          "naver_place_link": "http://anmokbeach.co.kr",
+          "sample_links": [
+            "https://blog.naver.com/pricuae123/224301699781",
+            "https://blog.naver.com/medic3939/224300583314"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "region": "광주",
+      "slug": "EAB491ECA3BC",
+      "hot_score": 52.2,
+      "place_count": 2,
+      "top_places": [
+        "연화식당",
+        "연화식당"
+      ],
+      "categories": [
+        "food",
+        "domestic_travel"
+      ],
+      "places": [
+        {
+          "rank": 2,
+          "category": "food",
+          "region": "광주",
+          "display_name": "연화식당",
+          "official_place_name": "연화식당",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "restaurant",
+          "naver_place_category": "한식>육류,고기요리",
+          "blog_post_count": 5,
+          "today_count": 5,
+          "previous_average": 0,
+          "lift": 10,
+          "match_score": 90,
+          "hot_score": 45,
+          "address": "광주광역시 서구 치평동 241-3 아트빌",
+          "roadAddress": "광주광역시 서구 마륵복개로 147 아트빌",
+          "mapx": "1268530929",
+          "mapy": "351478649",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/overthesense/224301637298",
+            "https://blog.naver.com/e150934/224301848407",
+            "https://blog.naver.com/tornadoofsoul/224301770965",
+            "https://blog.naver.com/attageogi/224301554331",
+            "https://blog.naver.com/flemznls1/224301794817"
+          ]
+        },
+        {
+          "rank": 9,
+          "category": "domestic_travel",
+          "region": "광주",
+          "display_name": "연화식당",
+          "official_place_name": "연화식당",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "restaurant",
+          "naver_place_category": "한식>육류,고기요리",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 90,
+          "hot_score": 7.2,
+          "address": "광주광역시 서구 치평동 241-3 아트빌",
+          "roadAddress": "광주광역시 서구 마륵복개로 147 아트빌",
+          "mapx": "1268530929",
+          "mapy": "351478649",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/attageogi/224301554331",
+            "https://blog.naver.com/flemznls1/224301794817"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "region": "대구",
+      "slug": "EB8C80EAB5AC",
+      "hot_score": 46.8,
+      "place_count": 4,
+      "top_places": [
+        "서문시장",
+        "서문시장",
+        "단골식당 연탄돼지불고기",
+        "단골식당 연탄돼지불고기"
+      ],
+      "categories": [
+        "food",
+        "domestic_travel"
+      ],
+      "places": [
+        {
+          "rank": 3,
+          "category": "food",
+          "region": "대구",
+          "display_name": "서문시장",
+          "official_place_name": "서문시장",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "쇼핑,유통>시장",
+          "blog_post_count": 3,
+          "today_count": 3,
+          "previous_average": 0,
+          "lift": 6,
+          "match_score": 90,
+          "hot_score": 16.2,
+          "address": "대구광역시 중구 대신동 115-1 서문시장",
+          "roadAddress": "대구광역시 중구 달성로 50 서문시장",
+          "mapx": "1285802593",
+          "mapy": "358691115",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/coma112233/224301849712",
+            "https://blog.naver.com/coma112233/224301836768",
+            "https://blog.naver.com/kkokkorun/224301643583"
+          ]
+        },
+        {
+          "rank": 4,
+          "category": "domestic_travel",
+          "region": "대구",
+          "display_name": "서문시장",
+          "official_place_name": "서문시장",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "쇼핑,유통>시장",
+          "blog_post_count": 3,
+          "today_count": 3,
+          "previous_average": 0,
+          "lift": 6,
+          "match_score": 90,
+          "hot_score": 16.2,
+          "address": "대구광역시 중구 대신동 115-1 서문시장",
+          "roadAddress": "대구광역시 중구 달성로 50 서문시장",
+          "mapx": "1285802593",
+          "mapy": "358691115",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/coma112233/224301849712",
+            "https://blog.naver.com/coma112233/224301836768",
+            "https://blog.naver.com/kkokkorun/224301643583"
+          ]
+        },
+        {
+          "rank": 6,
+          "category": "food",
+          "region": "대구",
+          "display_name": "단골식당 연탄돼지불고기",
+          "official_place_name": "단골식당 연탄돼지불고기",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "restaurant",
+          "naver_place_category": "음식점>한식",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 90,
+          "hot_score": 7.2,
+          "address": "대구광역시 북구 칠성동1가 92-6 1,2층",
+          "roadAddress": "대구광역시 북구 칠성시장로7길 9-1 1,2층",
+          "mapx": "1286036874",
+          "mapy": "358759585",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/kate_0522/224301578041",
+            "https://blog.naver.com/andy_365/224299370604"
+          ]
+        },
+        {
+          "rank": 7,
+          "category": "domestic_travel",
+          "region": "대구",
+          "display_name": "단골식당 연탄돼지불고기",
+          "official_place_name": "단골식당 연탄돼지불고기",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "restaurant",
+          "naver_place_category": "음식점>한식",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 90,
+          "hot_score": 7.2,
+          "address": "대구광역시 북구 칠성동1가 92-6 1,2층",
+          "roadAddress": "대구광역시 북구 칠성시장로7길 9-1 1,2층",
+          "mapx": "1286036874",
+          "mapy": "358759585",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/kate_0522/224301578041",
+            "https://blog.naver.com/andy_365/224299370604"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "region": "대전",
+      "slug": "EB8C80ECA084",
+      "hot_score": 13.6,
+      "place_count": 4,
+      "top_places": [
+        "중앙시장",
+        "대청호장미축제",
+        "대청호 장미축제",
+        "대청호 장미축제"
+      ],
+      "categories": [
+        "domestic_travel",
+        "food"
+      ],
+      "places": [
+        {
+          "rank": 10,
+          "category": "domestic_travel",
+          "region": "대전",
+          "display_name": "중앙시장",
+          "official_place_name": "중앙시장",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "쇼핑,유통>시장",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 90,
+          "hot_score": 7.2,
+          "address": "대전광역시 동구 중동 317",
+          "roadAddress": "대전광역시 동구 중앙로 200-1",
+          "mapx": "1274319380",
+          "mapy": "363298389",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/mugja30/224301865406",
+            "https://blog.naver.com/whqufdl37/224301687117"
+          ]
+        },
+        {
+          "rank": 15,
+          "category": "domestic_travel",
+          "region": "대전",
+          "display_name": "대청호장미축제",
+          "official_place_name": "대청호 반자연수변공원",
+          "event_name": "대청호장미축제",
+          "alias_name": "",
+          "match_type": "event_on_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>도시,테마공원",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 40,
+          "hot_score": 3.2,
+          "address": "대전광역시 동구 추동 328",
+          "roadAddress": "",
+          "mapx": "1274743212",
+          "mapy": "363727846",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/issueletter365/224301618826",
+            "https://blog.naver.com/sldighd1863/224301792243"
+          ]
+        },
+        {
+          "rank": 17,
+          "category": "domestic_travel",
+          "region": "대전",
+          "display_name": "대청호 장미축제",
+          "official_place_name": "대청호 반자연수변공원",
+          "event_name": "대청호 장미축제",
+          "alias_name": "",
+          "match_type": "event_on_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>도시,테마공원",
+          "blog_post_count": 5,
+          "today_count": 3,
+          "previous_average": 1,
+          "lift": 2,
+          "match_score": 40,
+          "hot_score": 2.4,
+          "address": "대전광역시 동구 추동 328",
+          "roadAddress": "",
+          "mapx": "1274743212",
+          "mapy": "363727846",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/issueletter365/224301618826",
+            "https://blog.naver.com/angel79satan/224301819560",
+            "https://blog.naver.com/3050035/224295646828",
+            "https://blog.naver.com/sldighd1863/224301792243",
+            "https://blog.naver.com/kkangpaetokkieeee/224301184821"
+          ]
+        },
+        {
+          "rank": 24,
+          "category": "food",
+          "region": "대전",
+          "display_name": "대청호 장미축제",
+          "official_place_name": "대청호 반자연수변공원",
+          "event_name": "대청호 장미축제",
+          "alias_name": "",
+          "match_type": "event_on_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>도시,테마공원",
+          "blog_post_count": 2,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 40,
+          "hot_score": 0.8,
+          "address": "대전광역시 동구 추동 328",
+          "roadAddress": "",
+          "mapx": "1274743212",
+          "mapy": "363727846",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/issueletter365/224301618826",
+            "https://blog.naver.com/kkangpaetokkieeee/224301184821"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "region": "가평",
+      "slug": "EAB080ED8F89",
+      "hot_score": 12.4,
+      "place_count": 6,
+      "top_places": [
+        "아침고요수목원 봄나들이 봄꽃축제",
+        "자라섬 꽃축제",
+        "자라섬꽃축제",
+        "고고다이노 키즈호텔"
+      ],
+      "categories": [
+        "domestic_travel"
+      ],
+      "places": [
+        {
+          "rank": 14,
+          "category": "domestic_travel",
+          "region": "가평",
+          "display_name": "아침고요수목원 봄나들이 봄꽃축제",
+          "official_place_name": "아침고요수목원 봄나들이 봄꽃축제",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>꽃축제",
+          "blog_post_count": 4,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 90,
+          "hot_score": 3.6,
+          "address": "경기도 가평군 상면 임초리 629-13",
+          "roadAddress": "",
+          "mapx": "1273521916",
+          "mapy": "377425540",
+          "naver_place_link": "http://korean.visitkorea.or.kr/kor/inut/where/festival/festival.jsp?cid=989991",
+          "sample_links": [
+            "https://blog.naver.com/mmmmbin/224300575415",
+            "https://blog.naver.com/usi345/224299351255",
+            "https://blog.naver.com/kyju6507/224297372051",
+            "https://blog.naver.com/kebaake/224301775851"
+          ]
+        },
+        {
+          "rank": 16,
+          "category": "domestic_travel",
+          "region": "가평",
+          "display_name": "자라섬 꽃축제",
+          "official_place_name": "자라섬 불 꽃축제",
+          "event_name": "자라섬 꽃축제",
+          "alias_name": "",
+          "match_type": "event_on_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>꽃축제",
+          "blog_post_count": 6,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 50,
+          "hot_score": 3,
+          "address": "경기도 가평군 가평읍 대곡리 27-14",
+          "roadAddress": "경기도 가평군 가평읍 자라섬로 60",
+          "mapx": "1275231630",
+          "mapy": "378182034",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/123whywhy/224299354360",
+            "https://blog.naver.com/yhking119/224299046910",
+            "https://blog.naver.com/flemznls1/224298925262",
+            "https://blog.naver.com/betterthanever0810/224298653145",
+            "https://blog.naver.com/kim582777/224298626268"
+          ]
+        },
+        {
+          "rank": 19,
+          "category": "domestic_travel",
+          "region": "가평",
+          "display_name": "자라섬꽃축제",
+          "official_place_name": "자라섬 불 꽃축제",
+          "event_name": "자라섬꽃축제",
+          "alias_name": "",
+          "match_type": "event_on_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>꽃축제",
+          "blog_post_count": 4,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 50,
+          "hot_score": 2,
+          "address": "경기도 가평군 가평읍 대곡리 27-14",
+          "roadAddress": "경기도 가평군 가평읍 자라섬로 60",
+          "mapx": "1275231630",
+          "mapy": "378182034",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/boxbox45/224300172384",
+            "https://blog.naver.com/usi345/224299351255",
+            "https://blog.naver.com/nizekk/224299703527",
+            "https://blog.naver.com/sitimibi85/224297294108"
+          ]
+        },
+        {
+          "rank": 20,
+          "category": "domestic_travel",
+          "region": "가평",
+          "display_name": "고고다이노 키즈호텔",
+          "official_place_name": "고고다이노 키즈호텔",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "숙박>펜션",
+          "blog_post_count": 2,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 90,
+          "hot_score": 1.8,
+          "address": "경기도 가평군 설악면 사룡리 595-3 고고다이노 키즈호텔",
+          "roadAddress": "경기도 가평군 설악면 자잠로 229 고고다이노 키즈호텔",
+          "mapx": "1274881086",
+          "mapy": "376944931",
+          "naver_place_link": "http://gogodinokids-hotel.kr/",
+          "sample_links": [
+            "https://blog.naver.com/shy0917cjh/224300583214",
+            "https://blog.naver.com/bean_urse/224298476039"
+          ]
+        },
+        {
+          "rank": 22,
+          "category": "domestic_travel",
+          "region": "가평",
+          "display_name": "경기도꽃축제",
+          "official_place_name": "자라섬불 꽃축제",
+          "event_name": "경기도꽃축제",
+          "alias_name": "",
+          "match_type": "event_on_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>꽃축제",
+          "blog_post_count": 2,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 50,
+          "hot_score": 1,
+          "address": "경기도 가평군 가평읍 대곡리 27-14",
+          "roadAddress": "경기도 가평군 가평읍 자라섬로 60",
+          "mapx": "1275231630",
+          "mapy": "378182034",
+          "naver_place_link": "",
+          "sample_links": [
+            "https://blog.naver.com/boxbox45/224300172384",
+            "https://blog.naver.com/kyju6507/224297372051"
+          ]
+        },
+        {
+          "rank": 23,
+          "category": "domestic_travel",
+          "region": "가평",
+          "display_name": "아침고요수목원 수국축제",
+          "official_place_name": "아침고요수목원",
+          "event_name": "아침고요수목원 수국축제",
+          "alias_name": "",
+          "match_type": "event_on_place",
+          "candidate_type": "attraction",
+          "naver_place_category": "여행,명소>식물원,수목원",
+          "blog_post_count": 2,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 50,
+          "hot_score": 1,
+          "address": "경기도 가평군 상면 행현리 623-3",
+          "roadAddress": "경기도 가평군 상면 수목원로 432",
+          "mapx": "1273525250",
+          "mapy": "377427259",
+          "naver_place_link": "https://www.instagram.com/morningcalm_garden/",
+          "sample_links": [
+            "https://blog.naver.com/myeong0820/224301121414",
+            "https://blog.naver.com/nana_school/224301394724"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "region": "부산",
+      "slug": "EBB680EC82B0",
+      "hot_score": 7.8,
+      "place_count": 2,
+      "top_places": [
+        "화명생태공원",
+        "장승포호텔"
+      ],
+      "categories": [
+        "domestic_travel"
+      ],
+      "places": [
+        {
+          "rank": 11,
+          "category": "domestic_travel",
+          "region": "부산",
+          "display_name": "화명생태공원",
+          "official_place_name": "화명생태공원",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "여행,명소>자연,생태공원",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 90,
+          "hot_score": 7.2,
+          "address": "부산광역시 북구 화명동 1718-17",
+          "roadAddress": "부산광역시 북구",
+          "mapx": "1290041500",
+          "mapy": "352310095",
+          "naver_place_link": "http://www.busan.go.kr/nakdong/hwamyungpark01",
+          "sample_links": [
+            "https://blog.naver.com/kdspmj12/224301514888",
+            "https://blog.naver.com/bassing82/224301776918"
+          ]
+        },
+        {
+          "rank": 25,
+          "category": "domestic_travel",
+          "region": "부산",
+          "display_name": "장승포호텔",
+          "official_place_name": "하운드 호텔 거제 장승포 점",
+          "event_name": "",
+          "alias_name": "장승포호텔",
+          "match_type": "alias_match",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "숙박>호텔",
+          "blog_post_count": 2,
+          "today_count": 0,
+          "previous_average": 0,
+          "lift": 0,
+          "match_score": 30,
+          "hot_score": 0.6,
+          "address": "경상남도 거제시 장승포동 490",
+          "roadAddress": "경상남도 거제시 능포로 52",
+          "mapx": "1287269459",
+          "mapy": "348695669",
+          "naver_place_link": "https://blog.naver.com/hhjsp0711",
+          "sample_links": [
+            "https://blog.naver.com/hhjsp0711/224301274711",
+            "https://blog.naver.com/hhjsp0711/224301209568"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "region": "수원",
+      "slug": "EC8898EC9B90",
+      "hot_score": 7.2,
+      "place_count": 1,
+      "top_places": [
+        "광교호수공원"
+      ],
+      "categories": [
+        "food"
+      ],
+      "places": [
+        {
+          "rank": 5,
+          "category": "food",
+          "region": "수원",
+          "display_name": "광교호수공원",
+          "official_place_name": "광교호수공원",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "여행,명소>도시,테마공원",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 90,
+          "hot_score": 7.2,
+          "address": "경기도 수원시 영통구 하동 1026-1",
+          "roadAddress": "경기도 수원시 영통구 광교호수로 165",
+          "mapx": "1270696711",
+          "mapy": "372826146",
+          "naver_place_link": "http://www.gglakepark.or.kr/",
+          "sample_links": [
+            "https://blog.naver.com/domdobu/224301759569",
+            "https://blog.naver.com/smile085/224301833775"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "region": "전주",
+      "slug": "ECA084ECA3BC",
+      "hot_score": 6.4,
+      "place_count": 1,
+      "top_places": [
+        "전주덕진공원"
+      ],
+      "categories": [
+        "domestic_travel"
+      ],
+      "places": [
+        {
+          "rank": 12,
+          "category": "domestic_travel",
+          "region": "전주",
+          "display_name": "전주덕진공원",
+          "official_place_name": "전주덕진공원",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "여행,명소>근린공원",
+          "blog_post_count": 2,
+          "today_count": 2,
+          "previous_average": 0,
+          "lift": 4,
+          "match_score": 80,
+          "hot_score": 6.4,
+          "address": "전북특별자치도 전주시 덕진구 덕진동1가 1316-2 전주덕진공원",
+          "roadAddress": "전북특별자치도 전주시 덕진구 권삼득로 390-1 전주덕진공원",
+          "mapx": "1271227180",
+          "mapy": "358479519",
+          "naver_place_link": "https://blog.naver.com/jeonjudeokjinpark",
+          "sample_links": [
+            "https://blog.naver.com/01yuchan/224301752002",
+            "https://blog.naver.com/yarn76/224301821831"
+          ]
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "region": "종로",
+      "slug": "ECA285EBA19C",
+      "hot_score": 2.39,
+      "place_count": 1,
+      "top_places": [
+        "광장시장"
+      ],
+      "categories": [
+        "food"
+      ],
+      "places": [
+        {
+          "rank": 18,
+          "category": "food",
+          "region": "종로",
+          "display_name": "광장시장",
+          "official_place_name": "광장시장",
+          "event_name": "",
+          "alias_name": "",
+          "match_type": "exact_place",
+          "candidate_type": "travel_spot",
+          "naver_place_category": "쇼핑,유통>시장",
+          "blog_post_count": 3,
+          "today_count": 2,
+          "previous_average": 1,
+          "lift": 1.33,
+          "match_score": 90,
+          "hot_score": 2.39,
+          "address": "서울특별시 종로구 예지동 2-1",
+          "roadAddress": "서울특별시 종로구 창경궁로 88",
+          "mapx": "1269990691",
+          "mapy": "375701661",
+          "naver_place_link": "http://kwangjangmarket.co.kr/",
+          "sample_links": [
+            "https://blog.naver.com/veritavitia/224301838148",
+            "https://blog.naver.com/oburi-/224301407518",
+            "https://blog.naver.com/yellowbabo/224301203451"
+          ]
+        }
+      ]
+    }
+  ]
+}

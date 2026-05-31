@@ -4,6 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "next dev",
+    "build": "npm run build:site-data && next build",
+    "start": "next start",
+    "build:site-data": "node work/build-site-data.mjs",
     "analyze:naver": "node work/naver-blog-place-analysis.mjs",
     "analyze:latest": "node work/naver-blog-latest-discovery.mjs",
     "summarize:latest": "node work/summarize-latest-analysis.mjs",
@@ -14,6 +18,14 @@
     "normalize:today-hot": "node work/normalize-today-hot-places.mjs",
     "save:snapshot": "node work/save-daily-hot-places-snapshot.mjs",
     "prepare:supabase-load": "node work/prepare-supabase-load.mjs"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
   },
   "engines": {
     "node": ">=18"
