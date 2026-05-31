@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 await loadDotEnv();
@@ -7,7 +7,8 @@ const ROOT = process.cwd();
 const OUTPUT_DIR = path.join(ROOT, "outputs");
 const SNAPSHOT_ROOT = path.join(OUTPUT_DIR, "snapshots");
 
-const INPUT_FILE = "today_hot_places_normalized.csv";
+const WEEKLY_INPUT_FILE = "weekly_hot_places.csv";
+const TODAY_INPUT_FILE = "today_hot_places_normalized.csv";
 const HISTORY_FILE = "daily_hot_places_history.csv";
 const REPORT_FILE = "daily_hot_places_history_report.md";
 
@@ -158,15 +159,18 @@ function buildReport(history, columns, snapshotDate) {
 }
 
 async function main() {
-  const inputPath = path.join(OUTPUT_DIR, INPUT_FILE);
+  const weeklyInputPath = path.join(OUTPUT_DIR, WEEKLY_INPUT_FILE);
+  const todayInputPath = path.join(OUTPUT_DIR, TODAY_INPUT_FILE);
+  const inputPath = await access(weeklyInputPath).then(() => weeklyInputPath).catch(() => todayInputPath);
+  const inputFile = path.basename(inputPath);
   const rawText = await readFile(inputPath, "utf8").catch(() => null);
   if (rawText === null) {
-    throw new Error(`Missing ${INPUT_FILE}. Run "npm run normalize:today-hot" first.`);
+    throw new Error(`Missing ${TODAY_INPUT_FILE}. Run "npm run normalize:today-hot" first.`);
   }
 
   const { header: columns, rows: snapshotRows } = parseCsv(rawText);
   if (snapshotRows.length === 0) {
-    throw new Error(`${INPUT_FILE} has no data rows.`);
+    throw new Error(`${inputFile} has no data rows.`);
   }
 
   // Snapshot date comes from the normalized file's date column (single snapshot date).
@@ -176,7 +180,7 @@ async function main() {
   // 1. Save a dated copy, preserving the exact bytes (BOM included).
   const snapshotDir = path.join(SNAPSHOT_ROOT, snapshotDate);
   await mkdir(snapshotDir, { recursive: true });
-  const snapshotPath = path.join(snapshotDir, INPUT_FILE);
+  const snapshotPath = path.join(snapshotDir, inputFile);
   await writeFile(snapshotPath, rawText, "utf8");
 
   // 2. Upsert into the rolling history file using the composite key.
@@ -185,18 +189,20 @@ async function main() {
     ? [...new Set([...existing.header, ...columns])]
     : columns;
 
-  const byKey = new Map();
-  for (const row of existing?.rows || []) byKey.set(rowKey(row), row);
+  const existingRows = existing?.rows || [];
+  const existingSameDate = existingRows.filter((row) => row.date === snapshotDate);
+  const existingOtherDates = existingRows.filter((row) => row.date !== snapshotDate);
+  const sameDateKeys = new Set(existingSameDate.map(rowKey));
   let replaced = 0;
   let added = 0;
   for (const row of snapshotRows) {
     const key = rowKey(row);
-    if (byKey.has(key)) replaced += 1;
+    if (sameDateKeys.has(key)) replaced += 1;
     else added += 1;
-    byKey.set(key, row);
   }
+  const removed = Math.max(existingSameDate.length - replaced, 0);
 
-  const history = [...byKey.values()].sort((a, b) =>
+  const history = [...existingOtherDates, ...snapshotRows].sort((a, b) =>
     String(b.date).localeCompare(String(a.date)) ||
     num(b.hot_score) - num(a.hot_score) ||
     num(a.rank, Infinity) - num(b.rank, Infinity)
@@ -210,7 +216,7 @@ async function main() {
 
   console.log(`Snapshot ${snapshotDate}: ${snapshotRows.length} row(s) saved.`);
   console.log(`  copied to ${path.relative(ROOT, snapshotPath)}`);
-  console.log(`  history upsert -> +${added} added, ${replaced} replaced (total ${history.length} rows across all dates)`);
+  console.log(`  history replace-date -> +${added} added, ${replaced} replaced, ${removed} removed (total ${history.length} rows across all dates)`);
   console.log(`  report -> ${path.relative(ROOT, reportPath)}`);
 }
 

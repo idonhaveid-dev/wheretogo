@@ -242,6 +242,7 @@ async function main() {
         date: snapshotDate,
         category: row.category,
         region: row.region,
+        candidate_name: row.candidate_name,
         ...names,
         match_type: row.match_type,
         candidate_type: row.candidate_type,
@@ -269,7 +270,7 @@ async function main() {
     .map((row, index) => ({ rank: index + 1, ...row }));
 
   const columns = [
-    "rank", "date", "category", "region", "display_name", "official_place_name",
+    "rank", "date", "category", "region", "candidate_name", "display_name", "official_place_name",
     "event_name", "alias_name", "match_type", "candidate_type", "naver_place_category",
     "blog_post_count", "today_count", "previous_average", "lift", "match_score", "hot_score",
     "address", "roadAddress", "mapx", "mapy", "naver_place_link", "sample_titles", "sample_links"

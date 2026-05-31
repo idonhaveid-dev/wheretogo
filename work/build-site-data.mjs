@@ -1,8 +1,9 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const INPUT = path.join(ROOT, "outputs", "today_hot_places_normalized.csv");
+const WEEKLY_INPUT = path.join(ROOT, "outputs", "weekly_hot_places.csv");
+const TODAY_INPUT = path.join(ROOT, "outputs", "today_hot_places_normalized.csv");
 const OUTPUT_DIR = path.join(ROOT, "public", "data");
 const OUTPUT = path.join(OUTPUT_DIR, "regions.json");
 
@@ -90,7 +91,8 @@ function normalizePlace(row) {
 }
 
 async function main() {
-  const rawRows = parseCsv(await readFile(INPUT, "utf8"));
+  const input = await access(WEEKLY_INPUT).then(() => WEEKLY_INPUT).catch(() => TODAY_INPUT);
+  const rawRows = parseCsv(await readFile(input, "utf8"));
   const rows = rawRows.map(normalizePlace);
   const byRegion = new Map();
 

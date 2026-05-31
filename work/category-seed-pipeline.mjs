@@ -509,6 +509,12 @@ function buildAnalysis(rawRows) {
     postRegions,
     regionTop,
     dailyRows,
+    candidateDailyRows: [...candidateDailyCounts.values()].sort((a, b) =>
+      a.date.localeCompare(b.date) ||
+      a.category.localeCompare(b.category) ||
+      a.region.localeCompare(b.region, "ko") ||
+      a.candidate_name.localeCompare(b.candidate_name, "ko")
+    ),
     drilldownRows,
     cleanedDrilldownRows,
     verifiedDrilldownRows,
@@ -640,6 +646,7 @@ async function main() {
   await writeFile(path.join(OUTPUT_DIR, `${prefix}_post_regions.csv`), toCsv(analysis.postRegions, ["post_id", "postdate", "region", "source_text", "link"]), "utf8");
   await writeFile(path.join(OUTPUT_DIR, `${prefix}_region_top.csv`), toCsv(analysis.regionTop, ["rank", "category", "region", "post_count", "seed_count", "score", "seeds", "sample_titles", "sample_links"]), "utf8");
   await writeFile(path.join(OUTPUT_DIR, `${prefix}_region_daily_counts.csv`), toCsv(analysis.dailyRows, ["date", "category", "region", "post_count"]), "utf8");
+  await writeFile(path.join(OUTPUT_DIR, `${prefix}_place_daily_counts.csv`), toCsv(analysis.candidateDailyRows, ["date", "category", "region", "candidate_name", "candidate_type", "post_count"]), "utf8");
   await writeFile(path.join(OUTPUT_DIR, `${prefix}_region_drilldown_top.csv`), toCsv(analysis.drilldownRows, ["rank", "category", "region", "candidate_name", "candidate_type", "post_count", "sample_titles", "sample_links"]), "utf8");
   await writeFile(path.join(OUTPUT_DIR, `${prefix}_region_drilldown_cleaned_top.csv`), toCsv(analysis.cleanedDrilldownRows, ["rank", "category", "region", "candidate_name", "candidate_type", "post_count", "sample_titles", "sample_links"]), "utf8");
   await writeFile(path.join(OUTPUT_DIR, `${prefix}_region_drilldown_verified_top.csv`), toCsv(analysis.verifiedDrilldownRows, ["rank", "category", "region", "candidate_name", "candidate_type", "post_count", "sample_titles", "sample_links"]), "utf8");
