@@ -18,7 +18,8 @@
     "normalize:today-hot": "node work/normalize-today-hot-places.mjs",
     "build:weekly-hot": "node work/build-weekly-hot-places.mjs",
     "save:snapshot": "node work/save-daily-hot-places-snapshot.mjs",
-    "prepare:supabase-load": "node work/prepare-supabase-load.mjs"
+    "prepare:supabase-load": "node work/prepare-supabase-load.mjs",
+    "experiment:naver-trends": "node work/build-naver-trend-scores.mjs"
   },
   "dependencies": {
     "next": "^15.0.0",
